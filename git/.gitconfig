@@ -1,0 +1,10 @@
+[alias]
+	ci = commit -v
+	co = checkout
+	di = diff
+	dc = diff --cached
+	ll = log --oneline
+	st = status --short
+	vz = ! open . -a Tower
+[include]
+	path = .gitconfig.local
