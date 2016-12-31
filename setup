@@ -2,3 +2,4 @@ stow bash -t ~
 stow git -t ~
 stow ruby -t ~
 stow tmux -t ~
+stow vim -t ~
