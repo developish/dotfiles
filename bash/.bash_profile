@@ -1,3 +1,5 @@
 export CLICOLOR=1
 
-eval "$(rbenv init -)"
+if [ "$(type -t rbenv)" = file ]; then
+  eval "$(rbenv init -)"
+fi
