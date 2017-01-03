@@ -1,5 +1,7 @@
 export CLICOLOR=1
 
+export EDITOR='vim'
+
 if [ -e .bashrc ]; then
   source .bashrc
 fi
