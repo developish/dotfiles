@@ -6,5 +6,7 @@
 	ll = log --oneline
 	st = status --short
 	vz = ! open . -a Tower
+[core]
+	excludesfile = ~/.cvsignore
 [include]
 	path = .gitconfig.local
