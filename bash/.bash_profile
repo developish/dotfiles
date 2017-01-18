@@ -2,6 +2,8 @@ export CLICOLOR=1
 
 export EDITOR='vim'
 
+export PATH="~/bin:$PATH"
+
 if [ -e .bash_aliases ]; then
   source .bash_aliases
 fi
