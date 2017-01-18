@@ -1,5 +1,6 @@
 stow bash -t ~
 stow git -t ~
+stow postgresql -t ~
 stow ruby -t ~
 stow tmux -t ~
 stow vim -t ~
