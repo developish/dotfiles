@@ -1,3 +1,9 @@
 # Ignore vim temp files
 *.swp
 *.swo
+
+# Mac temp files
+.DS_Store
+
+# ansible creates .retry files on failed runs
+*.retry
