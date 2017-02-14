@@ -4,3 +4,9 @@ stow postgresql -t ~
 stow ruby -t ~
 stow tmux -t ~
 stow vim -t ~
+
+# If ~/.csvignore doesn't exist then link to the one in the git directory
+# Stow ignores .cvsignore when stowing
+if [ ! -e ~/.cvsignore ]; then
+  ln -s `pwd`/git/.cvsignore ~/.cvsignore
+fi
