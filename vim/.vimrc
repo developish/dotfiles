@@ -8,3 +8,4 @@ set number " line numbers on the left
 set listchars=tab:▸\ ,trail:-
 
 nmap <leader>l :set list!<CR>
+nmap <leader>t :NERDTreeToggle<CR>
